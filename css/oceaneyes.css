@@ -37,27 +37,16 @@ li a, h1 a {
     width: 50%;
 }
 /*WAVES*/
-.wrapper {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-  background-image: linear-gradient(to top, #d2f6f7 0%, #68c0c4 100%);
-  overflow: hidden;
-}
 
 .wave {
-  width: 1000px;
-  height: 1025px;
+  width: 2000px;
+  height: 1500px;
   position: absolute;
-  top: -25%;
-  left: 50%;
-  margin-left: -500px;
-  margin-top: -500px;
-  border-radius: 35%;
+  top: -150%;
+  left: -35%;
+  margin-left: 75px;
+  margin-top: 25px;
+  border-radius: 50%;
   background: rgba(255, 255, 255, .5);
   animation: wave 15s infinite linear;
 }
