@@ -46,11 +46,11 @@ li a, h1 a {
 /*WAVES*/
 
 .wave {
-  width: 2750px;
-  height: 2800px;
+  width: 3500px;
+  height: 3525px;
   position: absolute;
-  top: 90%;
-  left: -5%;
+  top: 70%;
+  left: 5%;
   margin-left: -500px;
   margin-top: -500px;
   border-radius: 35%;
