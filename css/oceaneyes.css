@@ -36,6 +36,13 @@ li a, h1 a {
     margin-right: auto;
     width: 50%;
 }
+
+/*TEXT ANIMATIONS*/
+#been {
+
+}
+
+
 /*WAVES*/
 
 .wave {
@@ -43,7 +50,7 @@ li a, h1 a {
   height: 2800px;
   position: absolute;
   top: 90%;
-  left: 5%;
+  left: -5%;
   margin-left: -500px;
   margin-top: -500px;
   border-radius: 35%;
@@ -64,8 +71,8 @@ li a, h1 a {
     background-image: url("../img/blinkingsprite.png");
 
     -webkit-animation: play 1s steps(7) infinite;
-       -moz-animation: play 1s steps(7) infinite;
-            animation: play 1s steps(7) infinite;
+    -moz-animation: play 1s steps(7) infinite;
+    animation: play 1s steps(7) infinite;
 }
 
 @-webkit-keyframes play {
