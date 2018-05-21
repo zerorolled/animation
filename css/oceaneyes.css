@@ -39,15 +39,15 @@ li a, h1 a {
 /*WAVES*/
 
 .wave {
-  width: 2000px;
-  height: 1500px;
+  width: 2750px;
+  height: 2800px;
   position: absolute;
-  top: -150%;
-  left: -35%;
-  margin-left: 75px;
-  margin-top: 25px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, .5);
+  top: 90%;
+  left: 5%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(123, 240, 242, .5);
   animation: wave 15s infinite linear;
 }
 
