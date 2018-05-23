@@ -245,8 +245,21 @@ li a, h1 a {
    100% {color:rgb(99, 52, 52); left:1800px; top:-242px;}
 }
 
-/*WAVES*/
+/*NO FAIR ANIMATIONS*/
+.falling {
+  position: relative;
+  animation-name: falling;
+  animation-duration: 10s;
+  transition-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
 
+@keyframes falling {
+   0%   {left: 1000px; top:-10px;}
+   50%  {left: 1400px;}
+   100% {left: 900px; top:1000px;}
+}
+/*WAVES*/
 .wave {
   width: 3500px;
   height: 3525px;
@@ -288,6 +301,32 @@ li a, h1 a {
 }
 
 @keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+.blink1 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/blinkingsprite.png");
+    animation-name: blink1;
+    animation-play-state: paused;
+    -webkit-animation: play 1s steps(7) infinite;
+    -moz-animation: play 1s steps(7) infinite;
+    animation: play 1s steps(7) infinite;
+}
+
+@-webkit-keyframes blink1 {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@-moz-keyframes blink1 {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@keyframes blink1 {
    from { background-position:    0px; }
      to { background-position: -2100px; }
 }
