@@ -284,7 +284,6 @@ li a, h1 a {
     width: 300px;
     height: 200px;
     background-image: url("../img/blinkingsprite.png");
-
     -webkit-animation: play 1s steps(7) infinite;
     -moz-animation: play 1s steps(7) infinite;
     animation: play 1s steps(7) infinite;
@@ -305,23 +304,23 @@ li a, h1 a {
      to { background-position: -2100px; }
 }
 
-.blink1 {
+.blink2 {
     width: 300px;
     height: 200px;
     background-image: url("../img/blinkingsprite.png");
-    animation-name: blink1;
+    animation-name: blink2;
     animation-play-state: paused;
     -webkit-animation: play 1s steps(7) infinite;
     -moz-animation: play 1s steps(7) infinite;
     animation: play 1s steps(7) infinite;
 }
 
-@-webkit-keyframes blink1 {
+@-webkit-keyframes blink2 {
    from { background-position:    0px; }
      to { background-position: -2100px; }
 }
 
-@-moz-keyframes blink1 {
+@-moz-keyframes blink2 {
    from { background-position:    0px; }
      to { background-position: -2100px; }
 }
@@ -329,4 +328,8 @@ li a, h1 a {
 @keyframes blink1 {
    from { background-position:    0px; }
      to { background-position: -2100px; }
+}
+
+div:hover {
+    animation-play-state: paused;
 }
